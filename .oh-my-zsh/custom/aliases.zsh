@@ -9,3 +9,10 @@ if command -v tmux &> /dev/null
 then
 	alias tmux='tmux -u'
 fi
+
+if command -v batcat &> /dev/null
+then
+	alias bat='batcat'
+else
+	echo 'aliases.sh | No batcat command found'
+fi
