@@ -26,4 +26,7 @@ then
   alias tmux='tmux -u'
 fi
 
+# git aliases
+alias clean_besides='clean -fdxe'
+
 configureBat
